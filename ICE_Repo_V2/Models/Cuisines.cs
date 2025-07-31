@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ICE_Repo_V2.Models
 {
-    public class Cusines
+    public class Cuisines
     {
         public int CuisineId { get; set; }
         public string CuisineName { get; set; }
