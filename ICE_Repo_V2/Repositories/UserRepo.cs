@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ICE_Repo_V2.Repositories
 {
-    public class UserRepo : UsersRepo
+    public class UserRepo : IUsersRepo
     {
         private readonly DataContext context;
         public UserRepo(DataContext data)

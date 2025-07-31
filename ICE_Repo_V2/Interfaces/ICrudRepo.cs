@@ -22,9 +22,9 @@ namespace ICE_Repo_V2.Interfaces
     public interface IFavoritesRepo : ICrudRepo<Favorites> { }
     public interface IIngredientsRepo : ICrudRepo<Ingredients> { }
     public interface IRecipeIngridientsRepo : ICrudRepo<RecipeIngredients> { }
-    public interface RecipesRepo : ICrudRepo<Recipes> { }
-    public interface ReviewsRepo : ICrudRepo<Reviews> { }
-    public interface TagsRepo : ICrudRepo<Tags> { }
-    public interface UsersRepo : ICrudRepo<Users> { }
+    public interface IRecipesRepo : ICrudRepo<Recipes> { }
+    public interface IReviewsRepo : ICrudRepo<Reviews> { }
+    public interface ITagsRepo : ICrudRepo<Tags> { }
+    public interface IUsersRepo : ICrudRepo<Users> { }
 
 }
