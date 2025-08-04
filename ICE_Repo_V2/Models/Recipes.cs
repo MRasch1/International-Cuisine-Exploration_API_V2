@@ -11,7 +11,7 @@ namespace ICE_Repo_V2.Models
         public int RecipeId { get; set; }
         public int DishId { get; set; } /* Foreign key to Dishes table */
         public int UserId { get; set; } /* Foreign key to Users table */
-        public string Instructions { get; set; }
+        public string Instructions { get; set; }    
         public int PrepTime { get; set; } // in minutes
         public int CookTime { get; set; } // in minutes
         public int Servings { get; set; } // number of servings
